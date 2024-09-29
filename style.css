@@ -1,0 +1,745 @@
+html {
+  scroll-behavior: smooth;
+  position: sticky;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.offer {
+  background-color: rgba(23, 21, 21, 0.864);
+  height: 30px;
+  margin-top: -10px;
+}
+.offer h3 {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.logo img {
+  height: 50px;
+  width: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.navbar_items li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.navbar_items li :hover {
+  color: red;
+  font-weight: 900;
+}
+.navbar_items li {
+  display: inline;
+  padding-left: 20px;
+  font-size: 16px;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.navbar {
+  display: flex;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.search {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 35px;
+  width: 150px;
+  font-size: 15px;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.heroSection {
+  flex-wrap: wrap;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-image: url(./images/dmitriy-frantsev-EqSKtEA50uk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/*.heroSection img {
+  width: 100%;
+  height: 90vh;
+  position: absolute;
+  z-index: -1;
+}*/
+.add h1 {
+  font-size: 200px;
+  font-family: "Rubik Marker Hatch", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
+.add h4 {
+  font-size: 40px;
+  font-family: "Rubik Marker Hatch", system-ui;
+  font-weight: 100;
+}
+.add h1,
+h4 {
+  margin: 0;
+  /*padding-left: 50px;
+  padding-top: 50px;*/
+  color: aliceblue;
+}
+.add2 {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  /*margin-top: 100px;
+  margin-left: 100px;*/
+  background-color: rgba(45, 41, 41, 0.508);
+  padding: 20px;
+  box-shadow: 0px 0px 20px 10px black;
+  border-radius: 20px;
+}
+.add2 h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.add2 h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.add2 h5 {
+  font-size: 15px;
+}
+.add2 button {
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.337);
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  border: solid;
+  border-radius: 10px;
+  padding: 8px;
+  width: 140px;
+}
+
+.navbaricons {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+.navbaricons li :hover {
+  font-size: 27px;
+  font-weight: 700;
+}
+.navbaricons li {
+  padding-left: 10px;
+}
+.section2 {
+  margin-top: 27px;
+  padding-top: 50px;
+  background-color: white;
+}
+.section2 h1 {
+  font-family: "Poppins", sans-serif;
+}
+.section2 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.circle {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+.circle p {
+  font-family: "Poppins", sans-serif;
+  background-image: url(./images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+  color: aliceblue;
+  height: 80px;
+  width: 140px;
+  padding-top: 55px;
+  border-radius: 70px;
+  border: 4px solid white;
+  outline: 3px solid goldenrod;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.add2btn {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.add2btn :hover {
+  color: brown;
+  font-size: 16px;
+}
+.section3 {
+  flex-wrap: wrap;
+  background-image: url(./images/section3.jpg);
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.section3a p {
+  font-size: 40px;
+  font-family: "Rubik Marker Hatch", system-ui;
+  font-weight: 900;
+  color: orange;
+}
+.section3a {
+  padding-left: 100px;
+}
+.section3a h1 {
+  font-size: 145px;
+  font-family: "Rubik Marker Hatch", system-ui;
+  font-weight: 900;
+  color: yellow;
+}
+.section3b h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.section3b {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+
+  background-color: rgba(45, 41, 41, 0.508);
+  padding: 20px;
+  box-shadow: 0px 0px 20px 10px black;
+  border-radius: 20px;
+}
+.section3b p {
+  font-size: 24px;
+}
+.section3ba {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.section3ba button {
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.337);
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  border: solid;
+  border-radius: 10px;
+  padding: 8px;
+  width: 140px;
+}
+.section3ba :hover {
+  color: brown;
+  font-size: 16px;
+}
+
+/*----------------------------grid section for spotlight-----------------------*/
+.spotlight {
+  margin-left: 15px;
+}
+.spotlight h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+}
+.parentSpotlight {
+  display: grid;
+  column-gap: 20px;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  /*grid-template-rows: repeat(1, 300px);*/
+  grid-template-columns: repeat(9, 300px);
+}
+/*.cs {
+  border: 5px solid;
+}*/
+.csdis {
+  background-color: rgb(200, 44, 44);
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  color: aliceblue;
+  width: 70px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+.csdes {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(65, 63, 63);
+}
+.disPrice {
+  color: red;
+  font-weight: 800;
+  font-size: 15px;
+}
+.oriPrice {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.cs:hover {
+  transform: scale(1.03);
+  transition: transform 0.1s;
+}
+/*---------------------poster section----------------------*/
+.poster {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.poster button {
+  background-color: black;
+  color: aliceblue;
+  height: 40px;
+  width: 50%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+
+  border: solid black;
+  margin-top: 20px;
+}
+.leftposter img {
+  height: 550px;
+  width: 100%;
+}
+.leftposter h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.leftposter p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+.rightposter img {
+  height: 550px;
+  width: 100%;
+}
+.rightposter h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.rightposter p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+/*------------------------VELOCITY NITRO SECTION---------------*/
+
+.velocitynitro {
+  background-image: url(./images/velocitybg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 135%;
+  height: 90vh;
+  display: flex;
+  margin-top: 100px;
+}
+.velocityleft {
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.velocityleft h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+.velocityleft p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+.velocityleft button {
+  background-color: black;
+  color: aliceblue;
+  height: 40px;
+  width: 183px;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  border: solid black;
+}
+
+.nitrovideo {
+  margin-top: -50px;
+  position: relative;
+  z-index: 0;
+}
+.nitroright {
+  background-image: url(./images/nitroright1.webp);
+  background-repeat: no-repeat;
+  background-size: 95% 95%;
+  height: 100%;
+  width: 100%;
+  margin-top: -50px;
+  margin-left: -140px;
+  padding-bottom: 260px;
+  border-radius: 100px;
+}
+/*---------------------------display section-----------*/
+.displaysection {
+  margin-top: 200px;
+  background-image: url(./images/displayback.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.displaysection h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+}
+.displaysection p {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+.displaysection button {
+  background-color: black;
+  color: aliceblue;
+  height: 40px;
+  width: 120px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  border: solid black;
+}
+.displaysection button:hover {
+  color: red;
+}
+.displayright {
+  margin-right: 10px;
+}
+/*---------------------insta section-------------------------*/
+.instaheading {
+  font-family: "Poppins", sans-serif;
+}
+.instasection {
+  display: grid;
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  grid-template-rows: repeat(2, 220px);
+  grid-template-columns: repeat(13, 220px);
+  margin-left: 20px;
+}
+.in {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+.insta1 {
+  background-image: url(./images/insta/1.webp);
+}
+.insta2 {
+  background-image: url(./images/insta/2.webp);
+}
+.insta3 {
+  background-image: url(./images/insta/12.jpg);
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.insta4 {
+  background-image: url(./images/insta/5.webp);
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.insta5 {
+  background-image: url(./images/insta/4.webp);
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+.insta6 {
+  background-image: url(./images/insta/13.webp);
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+.insta7 {
+  background-image: url(./images/insta/6.webp);
+}
+.insta8 {
+  background-image: url(./images/insta/8.webp);
+}
+.insta9 {
+  background-image: url(./images/insta/3.webp);
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 8;
+  grid-column-end: 10;
+}
+.insta10 {
+  background-image: url(./images/insta/10.webp);
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 10;
+  grid-column-end: 12;
+}
+.insta11 {
+  background-image: url(./images/insta/7.webp);
+}
+.insta12 {
+  background-image: url(./images/insta/15.webp);
+}
+.insta13 {
+  background-image: url(./images/insta/14.webp);
+}
+.insta14 {
+  background-image: url(./images/insta/11.webp);
+}
+.map {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*----------------------------------footer section--------------------*/
+footer {
+  margin-top: 30px;
+  background-color: black;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+.footer {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 305px;
+}
+.footer h1 {
+  font-size: 20px;
+}
+.support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+.support li {
+  list-style: none;
+}
+.supportul {
+  margin-left: -50px;
+  margin-top: 0px;
+}
+.about li {
+  list-style: none;
+}
+.footerIcons {
+  display: flex;
+  gap: 20px;
+}
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 200px;
+}
+.last button {
+  margin-left: 200px;
+  background-image: url(./images/india.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: solid black;
+  height: 50px;
+  width: 130px;
+}
+hr {
+  width: 90%;
+}
+.resnitrovideo {
+  display: none;
+}
+/*----------------------------------responsive section-------------------*/
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+  .section3 {
+    height: auto;
+  }
+  .nitroright {
+    display: none;
+  }
+  .displayright {
+    margin-top: 685px;
+    margin-right: 120px;
+  }
+  .instaheading {
+    margin-top: 300px;
+  }
+  .footer {
+    gap: 30px;
+  }
+  hr {
+    margin-top: 30px;
+  }
+  .last {
+    gap: 30px;
+  }
+  .heroSection {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .navbar_items {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .heroSection {
+    height: auto;
+  }
+  .add h1 {
+    font-size: 145px;
+    font-weight: 900;
+  }
+  .add h4 {
+    font-size: 40px;
+    font-family: "Rubik Marker Hatch", system-ui;
+    font-weight: 100;
+  }
+  .add h1,
+  h4 {
+    margin: 0;
+    color: aliceblue;
+  }
+  .section3 {
+    height: auto;
+  }
+  .displayright {
+    margin-top: 850px;
+  }
+  .add h1 {
+    font-size: 110px;
+  }
+  .add2 {
+    width: 90%;
+  }
+  .add2 h1 {
+    font-size: 25px;
+  }
+  .add2 h2 {
+    font-size: 15px;
+  }
+  .add2 h5 {
+    font-size: 10px;
+  }
+  .add2btn {
+    gap: 5px;
+  }
+  .section3a {
+    padding-left: 10px;
+  }
+  .section3ba button {
+    width: 90px;
+    font-size: 10px;
+  }
+  .section3b p {
+    font-size: 15px;
+  }
+  .section3b h1 {
+    font-size: 22px;
+  }
+  .section3b {
+    padding: 10px;
+  }
+  .leftposter img {
+    height: 400px;
+    width: 90%;
+  }
+  .rightposter img {
+    height: 400px;
+    width: 90%;
+  }
+  .poster button {
+    font-size: 10px;
+  }
+  .velocitynitro {
+    height: auto;
+  }
+  .velocityleft {
+    margin-left: 10px;
+  }
+  .velocityleft h1 {
+    font-size: 22px;
+  }
+  .velocityleft p {
+    font-size: 15px;
+  }
+  .velocityleft button {
+    width: 151px;
+    font-size: 10px;
+  }
+  .resnitrovideo {
+    display: block;
+  }
+  .nitrovideo {
+    display: none;
+  }
+  .nitroright {
+    display: none;
+  }
+  .instaheading {
+    margin-top: 400px;
+  }
+  .footer {
+    gap: 5px;
+    font-size: 10px;
+  }
+  hr {
+    margin-top: 30px;
+  }
+  .last {
+    gap: 1px;
+  }
+  .support {
+    gap: 1px;
+  }
+  .supportul {
+    margin-left: -20px;
+  }
+  .footer h1 {
+    font-size: 15px;
+  }
+  .last button {
+    margin-left: 100px;
+    width: 120px;
+  }
+  .last {
+    font-size: 10px;
+  }
+}
